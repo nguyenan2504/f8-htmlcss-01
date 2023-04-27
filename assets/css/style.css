@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+html,body {
+    scroll-behavior: smooth !important;
+}
 html {
     font-size: 62.5%;
 }
@@ -52,11 +55,6 @@ a {
     align-items: center;
     padding: 12px 0;
 }
-.hero-wrap {
-    position: relative;
-    background: #E6F0FF;
-    height: 100vh;
-}   
 .navbar ul {
     display: flex;
     margin: 0 auto 0 60px;
@@ -83,6 +81,11 @@ a {
 }
 
 /* ======= Hero ======= */
+.hero-wrap {
+    position: relative;
+    background: #E6F0FF;
+    height: calc(100vh - 90px);
+}   
 .hero .info {
     padding-top: 130px;
     max-width: 50%;
