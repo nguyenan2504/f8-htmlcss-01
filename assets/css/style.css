@@ -83,11 +83,12 @@ a {
 /* ======= Hero ======= */
 .hero-wrap {
     position: relative;
+    display: flex;
+    align-items: center;
     background: #E6F0FF;
     height: calc(100vh - 90px);
 }   
 .hero .info {
-    padding-top: 130px;
     max-width: 50%;
 }
 .info .sub-title {
