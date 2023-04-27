@@ -504,10 +504,8 @@ footer .social  {
     display: flex;
     margin-top: 40px;
 }
-footer .social a {
-    margin-right: 16px;
-    width: 28px;
-    height: 28px;
+footer .social-link + .social-link {
+    margin-left: 16px;
 }
 footer .row-logo  {
     display: flex;
