@@ -40,16 +40,23 @@ a {
 }
 
 /* ======= Header ======= */
-.header {
+.sticky-header  {
+    position: sticky;
+    padding-top: 26px;
+    top: -26px;
+    z-index: 1;
+    background: #E6F0FF;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+.hero-wrap {
     position: relative;
     background: #E6F0FF;
     height: 100vh;
 }   
-.navbar {
-    display: flex;
-    align-items: center;
-    padding-top: 38px;
-}
 .navbar ul {
     display: flex;
     margin: 0 auto 0 60px;
@@ -77,7 +84,7 @@ a {
 
 /* ======= Hero ======= */
 .hero .info {
-    margin-top: 130px;
+    padding-top: 130px;
     max-width: 50%;
 }
 .info .sub-title {
@@ -210,6 +217,7 @@ a {
     background: #F5FAFE;
 }
 .features .sub-title {
+    padding-top: 110px;
     font-weight: 600;
     font-size: 3.5rem;
     color: #000339;
